@@ -12,10 +12,25 @@
     --bgc-fizz-color: #0bd6a0;
     --bgc-buzz-color: #ffd166;
     --bgc-fizzbuzz-color: #f0466f;
-    --size-md: 50px;
+    --size-md: 100px;
 }
 
+/* Utility */
 .container {
     max-width: 1000px;
     margin: 0 auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+/* Body */
+section {
+    background-color: var(--bgc-main-color);
+}
+
+h1 {
+    text-align: center;
+    color: white;
 }
