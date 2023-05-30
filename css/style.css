@@ -21,10 +21,6 @@
     margin: 0 auto;
 }
 
-.d-flex {
-    display: flex;
-}
-
 /* Body */
 body {
     font-family: 'Heebo', sans-serif;
@@ -49,7 +45,6 @@ h1 {
 }
 
 /* Fizz & Buzz Style */
-
 .box {
     height: var(--size-md);
     width: var(--size-md);
