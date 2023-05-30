@@ -14,3 +14,8 @@
     --bgc-fizzbuzz-color: #f0466f;
     --size-md: 50px;
 }
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
