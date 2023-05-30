@@ -19,3 +19,19 @@ BONUS 2:
 Applica stili differenti agli elementi aggiunti al DOM nel BONUS 1, a seconda che il valore inserito sia un numero, un fizz, un buzz o un fizzbuzz.
 Come abbiamo visto puoi  usare varie tecniche (style , className, classList)
  -->
+
+# FizzBuzz
+## Operazioni preliminari
+- Collego l'elemento nel DOM che conterrà gli elementi
+- Creo una variabile `divisibileBy3`.
+- Creo una variabile `divisibileBy5`.
+
+## Svlogimento
+-  **PER OGNI CICLO** da 1 a 100 fai una verifica su una variabile
+  - **SE** la variabile è divisibile per 3, stampa su console la parola *Fizz*.
+  - **ALTRIMENTI SE** la variabile è divisibile per 5, stampa su console la parola *Buzz*.
+  - **ALTRIMENTI SE** la variabile è divisibile sia per 3 che per 5, stampa la parola *FizzBuzz*.
+  - **ALTRIMENTI** Stampa solo il numero.
+## BONUS
+- Aggiungi nel DOM il risultato anziché stamparlo su console.
+- Stilizzare il risultato differentemente se numero, fizz, buzz o fizzBuzz.
