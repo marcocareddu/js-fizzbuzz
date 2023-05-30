@@ -4,3 +4,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Custom Properties */
+:root {
+    --bgc-main-color: #083b4c;
+    --bgc-single-color: #1389b2;
+    --bgc-fizz-color: #0bd6a0;
+    --bgc-buzz-color: #ffd166;
+    --bgc-fizzbuzz-color: #f0466f;
+    --size-md: 50px;
+}
