@@ -26,11 +26,48 @@
 }
 
 /* Body */
+body {
+    font-family: 'Heebo', sans-serif;
+}
+
 section {
     background-color: var(--bgc-main-color);
 }
 
 h1 {
+    font-size: 60px;
+    padding: 20px 0;
     text-align: center;
     color: white;
+}
+
+#blocks-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+/* Fizz & Buzz Style */
+
+.box {
+    height: var(--size-md);
+    width: var(--size-md);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bgc-single-color);
+    border-radius: 5px;
+}
+
+.fizz {
+    background-color: var(--bgc-fizz-color);
+}
+
+.buzz {
+    background-color: var(--bgc-buzz-color);
+}
+
+.fizzbuzz {
+    background-color: var(--bgc-fizzbuzz-color);
 }
