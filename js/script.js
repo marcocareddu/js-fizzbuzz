@@ -15,11 +15,23 @@ const divisibileBy5 = 5;
 for (let i = 1; i <= 100; i++) {
     if (((i % divisibileBy5) === 0) && ((i % divisibileBy3) === 0)) {
         console.log('FizzBuzz');
+        // Add Div into DOM
+        const tag = '<div>FizzBuzz</div>';
+        blocksElement.innerHTML += tag;
     } else if ((i % divisibileBy3) === 0) {
         console.log('Fizz');
+        // Add Div into DOM
+        const tag = '<div>Fizz</div>';
+        blocksElement.innerHTML += tag;
     } else if ((i % divisibileBy5) === 0) {
         console.log('Buzz');
+        // Add Div into DOM
+        const tag = '<div>Buzz</div>';
+        blocksElement.innerHTML += tag;
     } else {
         console.log(i);
+        // Add Div into DOM
+        const tag = '<div>' + i + '</div>';
+        blocksElement.innerHTML += tag;
     }
 }
