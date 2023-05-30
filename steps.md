@@ -26,7 +26,7 @@ Come abbiamo visto puoi  usare varie tecniche (style , className, classList)
 - Creo una variabile `divisibileBy3`.
 - Creo una variabile `divisibileBy5`.
 
-## Svlogimento
+## Svolgimento
 -  **PER OGNI CICLO** da 1 a 100 fai una verifica su una variabile
   - **SE** la variabile è divisibile per 3, stampa su console la parola *Fizz*.
   - **ALTRIMENTI SE** la variabile è divisibile per 5, stampa su console la parola *Buzz*.
